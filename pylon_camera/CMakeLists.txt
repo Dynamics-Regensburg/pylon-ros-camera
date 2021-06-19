@@ -62,6 +62,7 @@ roslint_cpp(
     include/${PROJECT_NAME}/internal/impl/${PROJECT_NAME}_base.hpp
     include/${PROJECT_NAME}/internal/impl/${PROJECT_NAME}_dart.hpp
     include/${PROJECT_NAME}/internal/impl/${PROJECT_NAME}_gige.hpp
+    include/${PROJECT_NAME}/internal/impl/${PROJECT_NAME}_gige_ace2.hpp
     include/${PROJECT_NAME}/internal/impl/${PROJECT_NAME}_usb.hpp
 )
 
@@ -205,4 +206,3 @@ foreach(child ${children})
   endif()
 endforeach()
 add_custom_target(dummy_${PROJECT_NAME} SOURCES ${${PROJECT_NAME}_extra_files})
-
