@@ -1,1 +1,26 @@
-hello wolrd
+image_width: 2048
+image_height: 1536
+camera_name: narrow_stereo
+camera_matrix:
+  rows: 3
+  cols: 3
+  data: [ 1791.75143,     0.     ,  1038.36998,
+             0.     ,  1793.75475,   695.76526,
+             0.     ,     0.     ,     1.     ]
+camera_model: plumb_bob
+distortion_coefficients:
+  rows: 1
+  cols: 5
+  data: [-0.177271, 0.141146, 0.000182, -0.000614, 0.000000]
+rectification_matrix:
+  rows: 3
+  cols: 3
+  data: [ 1.,  0.,  0.,
+          0.,  1.,  0.,
+          0.,  0.,  1.]
+projection_matrix:
+  rows: 3
+  cols: 4
+  data: [ 1710.22253,     0.     ,  1037.97795,     0.     ,
+             0.     ,  1740.66992,   692.29096,     0.     ,
+             0.     ,     0.     ,     1.     ,     0.     ]

@@ -1,1 +1,26 @@
-Hello world
+image_width: 2048
+image_height: 1536
+camera_name: narrow_stereo
+camera_matrix:
+  rows: 3
+  cols: 3
+  data: [ 1841.82691,     0.     ,  1039.14503,
+             0.     ,  1844.25626,   687.0068 ,
+             0.     ,     0.     ,     1.     ]
+camera_model: plumb_bob
+distortion_coefficients:
+  rows: 1
+  cols: 5
+  data: [-0.191705, 0.180863, -0.000506, 0.000387, 0.000000]
+rectification_matrix:
+  rows: 3
+  cols: 3
+  data: [ 1.,  0.,  0.,
+          0.,  1.,  0.,
+          0.,  0.,  1.]
+projection_matrix:
+  rows: 3
+  cols: 4
+  data: [ 1760.08936,     0.     ,  1040.67854,     0.     ,
+             0.     ,  1789.12866,   682.51335,     0.     ,
+             0.     ,     0.     ,     1.     ,     0.     ]
